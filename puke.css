@@ -1,0 +1,128 @@
+/*.animation{
+	width:200px;height:200px;
+	background: pink;
+}
+.zidan{
+	border-radius: 50%;
+	position: absolute;
+	top:50px;left:50px;
+}*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	width:100%;height:100%;
+	/*background:#363636;*/
+	background:url(images/beijing.jpg) ;
+}
+.zhuozi{
+	width:700px;height:600px;
+	/*border:1px solid #ccc;*/
+	position:relative;
+	margin:10px auto;
+	/*background:#565656;*/
+	background:url(images/beijing.png) ;
+}
+.pai{
+	width:90px;height:130px;
+	position:absolute;
+	top:0;
+	left:300px;
+	background-size:90px 130px;
+	border-radius:3px;
+	opacity:0;
+	box-shadow: 1px 1px 1px 1px #ccc;
+}
+.pai.yinying{
+	box-shadow:0 0 0 4px red;
+}
+.zhuozi .wangyou,.zhuozi .wangzuo{
+	width:90px;height:30px;
+	background: #2BC08A;
+	position: absolute;
+	top:450px;left:300px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+.zhuozi .wangyou{
+	background: #2BC08A;
+	top:475px;
+}
+.zhuozi .wangzuo{
+	background: #F15D40;
+	top:525px;
+}
+.zhuozi .you{
+	width:90px;height:130px;
+	background: yellow;
+	position:absolute;
+	top:450px;left:450px;
+	background-size:90px 130px;
+}
+.zhuozi .youxi,.zhuozi .kaishi{
+	width:350px;height:100%;
+	background:url(images/wang.png) no-repeat center #363636;
+	position:absolute;
+	top:0;
+	z-index:10;
+	/*opacity:0.8;*/
+}
+.zhuozi .kaishi{
+	left:350px;
+}
+.zhuozi .youxi{
+	left:0px;
+}
+.a{
+	width:100px;height:80px;
+	/*background:red;*/
+	position:absolute;
+	top:50%;
+	margin-top:-40px;
+	text-align:center;
+	line-height:80px;
+	font-size:40px;
+	border:1px solid #000;
+}
+.a.ayou{
+	right:0;
+	padding-left:10px;
+	text-align:right;
+	border-right:0;
+}
+.a.akai{
+	left:0;
+	padding-right:10px;
+	text-align:left;
+	border-left:0
+}
+.chongfa,.jieshu,.shuoming{
+	width:100px;height:50px;
+	position:absolute;
+	top:0;left:0;
+	background:#ccc;
+	text-align:center;
+	line-height:50px;
+	font-size:20px;
+	opacity:0;
+}
+.jieshu{
+	top:70px;
+}
+.shuoming{
+	top:140px;
+}
+.youxi .shuomingzi{
+	width:700px;height:600px;
+	/*border:1px solid #ccc;*/
+	position:absolute;
+	top:0;left:-350px;
+	background:#fff;
+	opacity:0;
+}
+.youxi .shuomingzi.zi{
+
+}
